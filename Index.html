@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHNEXUSLERAING</title>
+    <link rel="stylesheet" href="./giftos-html/technexus.css">
+    <link rel="stylesheet" href="./aos.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="newproject.css">
+    <!-- AOS CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!-- Bootstrap & Font Awesome -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+<!-- AOS (Animate on Scroll) -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+  
+  
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">
+      <img src="./WhatsApp Image 2025-04-04 at 12.30.04 AM.jpeg" alt="TechNexus Logo" width="40" height="40" class="d-inline-block align-text-top rounded-circle me-2">
+      TechNexus Learning
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+        <li class="nav-item"><a class="nav-link" href="#mission">Mission</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">Our Story</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <!-- Opening Offer Modal -->
+<div class="modal fade" id="openingOfferModal" tabindex="-1" aria-labelledby="openingOfferLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content shadow">
+      <div class="modal-header bg-primary text-white">
+        <h5 class="modal-title" id="openingOfferLabel">🎉 Opening Offer</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Enjoy a special <strong>20% discount</strong> on all courses! <br>
+        <span class="text-success fw-bold">Offer valid for 1 year!</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Welcome Section -->
+  <section class="position-relative">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./WhatsApp Image 2025-04-04 at 12.30.04 AM.jpeg" class="d-block w-100" style="height: 450px; object-fit: cover;" alt="Academy Banner">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+            <h1 class="fw-bold text-white">Welcome to TechNexus Learning</h1>
+            <p class="lead">Empowering Digital Creators, Innovators & Defenders</p>
+            <a href="#courses" class="btn btn-warning fw-semibold mt-2">Explore Courses</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <!-- Mission & Vision Section -->
+<style>
+  .mv-section {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      padding: 80px 20px;
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .mv-card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 20px;
+      padding: 40px;
+      transition: all 0.4s ease;
+      height: 100%;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      margin-bottom: 30px;
+  }
+
+  .mv-card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 12px 35px rgba(255, 255, 255, 0.2);
+      background: rgba(255, 255, 255, 0.08);
+  }
+
+  .mv-card h2 {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #90caf9;
+      margin-bottom: 15px;
+  }
+
+  .mv-card p {
+      font-size: 1.1rem;
+      color: #fff;
+  }
+
+  .highlight-yellow {
+      color: #ffca28;
+      font-weight: bold;
+  }
+</style>
+
+<!-- Add ID here 👇 -->
+<div id="mission" class="container-fluid mv-section">
+  <div class="container">
+
+      <!-- Mission -->
+      <div class="mv-card" data-aos="fade-right">
+          <h2>🎯 Our Mission</h2>
+          <p>
+              To provide <span class="highlight-yellow">affordable, high-quality tech education</span> that equips students with real-world skills—
+              and to empower college students with <span class="highlight-yellow">work experience</span> through meaningful part-time trainer roles.
+          </p>
+      </div>
+
+      <!-- Vision -->
+      <div class="mv-card" data-aos="fade-left">
+          <h2>🌟 Our Vision</h2>
+          <p>
+              To become a leading online learning hub that <span class="highlight-yellow">trains, transforms, and uplifts</span> the next generation of
+              <span class="highlight-yellow">digital creators, innovators, and defenders</span>—and one day, to build a thriving physical tech campus with a world-class team.
+          </p>
+      </div>
+
+  </div>
+</div>
+<style>
+  .courses-section {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    padding: 80px 20px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .courses-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 60px;
+    text-align: center;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .course-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 30px;
+    transition: all 0.4s ease;
+    height: 100%;
+    color: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+
+  .course-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 35px rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  .course-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #90caf9;
+  }
+
+  .course-card p {
+    margin-bottom: 8px;
+    font-size: 1rem;
+  }
+
+  .highlight {
+    color: #ffca28;
+    font-weight: bold;
+  }
+
+  /* Ribbon Style */
+  .ribbon {
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+  }
+
+  .ribbon span {
+    position: absolute;
+    display: block;
+    width: 130px;
+    padding: 8px 0;
+    background: linear-gradient(45deg, #FFD700, #FFB300);
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.75rem;
+    transform: rotate(45deg);
+    box-shadow: 0 0 10px #ffeb3b;
+    top: 20px;
+    right: -30px;
+    z-index: 2;
+  }
+</style>
+
+<div id="courses" class="container-fluid courses-section" data-aos="fade-up">
+  <h2 class="courses-title" data-aos="zoom-in">💼 Our Professional Courses</h2>
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Java -->
+      <div class="col-md-4" data-aos="fade-right">
+        <div class="course-card">
+          <div class="ribbon"><span>20% OFF</span></div>
+          <h4 class="course-title">Java Programming</h4>
+          <p>💰 Fee: ₹4,999</p>
+          <p>⏳ Duration: 3 Months</p>
+          <p>🎯 Level: Beginner to Advanced</p>
+          <p>🎓 Certificate | 🧪 Live Projects</p>
+        </div>
+      </div>
+
+      <!-- Python -->
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="course-card">
+          <div class="ribbon"><span>20% OFF</span></div>
+          <h4 class="course-title">Python Programming</h4>
+          <p>💰 Fee: ₹4,999</p>
+          <p>⏳ Duration: 3 Months</p>
+          <p>🎯 Level: Beginner to Advanced</p>
+          <p>🎓 Certificate | 🧪 Live Projects</p>
+        </div>
+      </div>
+
+      <!-- HTML & CSS -->
+      <div class="col-md-4" data-aos="fade-left">
+        <div class="course-card">
+          <div class="ribbon"><span>20% OFF</span></div>
+          <h4 class="course-title">HTML & CSS</h4>
+          <p>💰 Fee: ₹5,999</p>
+          <p>⏳ Duration: 3 Months</p>
+          <p>🎯 Level: Beginner to Advanced</p>
+          <p>🎓 Certificate | 🧪 Live Projects</p>
+        </div>
+      </div>
+
+      <!-- Cybersecurity -->
+      <div class="col-md-6" data-aos="zoom-in-right">
+        <div class="course-card">
+          <div class="ribbon"><span>20% OFF</span></div>
+          <h4 class="course-title">Cybersecurity & Ethical Hacking</h4>
+          <p>💰 Fee: ₹9,999</p>
+          <p>⏳ Duration: 3 Months</p>
+          <p>🎯 Level: Beginner to Advanced</p>
+          <p>🎓 Certificate | 🧪 Live Projects</p>
+        </div>
+      </div>
+
+      <!-- Digital Marketing -->
+      <div class="col-md-6" data-aos="zoom-in-left">
+        <div class="course-card">
+          <div class="ribbon"><span>20% OFF</span></div>
+          <h4 class="course-title">Digital Marketing</h4>
+          <p>💰 Fee: ₹7,999</p>
+          <p>⏳ Duration: 3 Months</p>
+          <p>🎯 Level: Beginner to Advanced</p>
+          <p>🎓 Certificate | 🧪 Live Projects</p>
+        </div>
+      </div>
+
+      <!-- Software Testing -->
+      <div class="col-md-4" data-aos="fade-right">
+        <div class="course-card">
+          <div class="ribbon"><span>20% OFF</span></div>
+          <h4 class="course-title">Software Testing</h4>
+          <p>💰 Fee: ₹7,999</p>
+          <p>⏳ Duration: 3 Months</p>
+          <p>🎯 Level: Beginner to Advanced</p>
+          <p>🎓 Certificate | 🧪 Live Projects</p>
+        </div>
+      </div>
+
+      <!-- DevOps -->
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="course-card">
+          <div class="ribbon"><span>20% OFF</span></div>
+          <h4 class="course-title">DevOps</h4>
+          <p>💰 Fee: ₹8,999</p>
+          <p>⏳ Duration: 3 Months</p>
+          <p>🎯 Level: Beginner to Advanced</p>
+          <p>🎓 Certificate | 🧪 Live Projects</p>
+        </div>
+      </div>
+
+      <!-- Full Stack -->
+      <div class="col-md-4" data-aos="fade-left">
+        <div class="course-card">
+          <div class="ribbon"><span>20% OFF</span></div>
+          <h4 class="course-title">Full Stack Development</h4>
+          <p>💰 Fee: ₹9,999</p>
+          <p>⏳ Duration: 3 Months</p>
+          <p>🎯 Level: Beginner to Advanced</p>
+          <p>🎓 Certificate | 🧪 Live Projects</p>
+        </div>
+      </div>
+
+      <!-- Robotics -->
+      <div class="col-md-6" data-aos="flip-up">
+        <div class="course-card">
+          <div class="ribbon"><span>20% OFF</span></div>
+          <h4 class="course-title">Robotics (School Students)</h4>
+          <p>💰 Fee: ₹6,500</p>
+          <p>⏳ Duration: 3 Months</p>
+          <p>🎯 Level: Beginner to Advanced</p>
+          <p>🎓 Certificate | 🧪 Live Projects</p>
+        </div>
+      </div>
+
+      <!-- Free Skills -->
+      <div class="col-md-6" data-aos="flip-down">
+        <div class="course-card">
+          <h4 class="course-title text-success">Free Skills Training</h4>
+          <p>🗣️ Communication Skills</p>
+          <p>🧑‍💼 Interview Preparation</p>
+          <p class="highlight">💯 Free for Enrolled Students</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- SVG Divider -->
+<div style="margin-top: -40px;">
+  <svg viewBox="0 0 1440 100" style="display: block;" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#2c5364" fill-opacity="1" d="M0,0L1440,100L1440,0L0,0Z"></path>
+  </svg>
+</div>
+<!--summer-->>
+<section id="digital-foundations-pro" style="font-family: Arial, sans-serif; background-color: #f7f9fc; padding: 40px 20px;">
+  <div style="max-width: 1000px; margin: auto;">
+    <h2 style="color: #1f4fa4; font-size: 32px; text-align: center;">🎓 Digital Foundations Pro – Summer Computer Literacy Program</h2>
+    <p style="text-align: center; font-size: 18px; color: #333;">💻 For After-12th Students | Duration: 2 Months | Fee: ₹5000</p>
+
+    <h3 style="color: #1f4fa4; margin-top: 40px;">📌 Course Overview</h3>
+    <p style="font-size: 16px; color: #444;">
+      A comprehensive beginner-level course to build a solid foundation in computer usage, productivity software, internet safety, and basic coding skills. Delivered in an engaging, hands-on format ideal for students preparing for college, jobs, or entrepreneurship.
+    </p>
+
+    <h3 style="color: #1f4fa4; margin-top: 30px;">📅 Weekly Schedule Outline</h3>
+    <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+      <thead style="background-color: #1f4fa4; color: #fff;">
+        <tr>
+          <th style="padding: 10px; border: 1px solid #ccc;">Week</th>
+          <th style="padding: 10px; border: 1px solid #ccc;">Module Title</th>
+          <th style="padding: 10px; border: 1px solid #ccc;">Key Skills Covered</th>
+          <th style="padding: 10px; border: 1px solid #ccc;">Project/Activity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ccc;">1</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Introduction to Computers</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Hardware/Software, Types of Computers</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Diagram: Label parts of a computer</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ccc;">2</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Operating System & File Management</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Windows basics, File handling, USB/Cloud Storage</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Folder structure creation activity</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ccc;">3</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Typing & Keyboarding Practice</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Home row keys, posture, typing software</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Typing speed tracking + leaderboard</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ccc;">4</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Word Processing (MS Word/Google Docs)</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Formatting, tables, resume writing</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Resume or report formatting project</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ccc;">5</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Spreadsheets (MS Excel/Google Sheets)</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Data entry, formulas, graphs</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Budget sheet + pie chart</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ccc;">6</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Presentations (PowerPoint/Slides)</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Slide design, transitions, animations</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Group presentation</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ccc;">7</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Internet, Email & Cyber Safety</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Safe browsing, email, cyber threats</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Create & send email with attachment</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ccc;">8</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Introduction to Coding (Scratch)</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Visual programming, logic blocks</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Mini animated game or story project</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3 style="color: #1f4fa4; margin-top: 30px;">🧰 Tools Used</h3>
+    <ul style="font-size: 16px; color: #444;">
+      <li>Windows PC or Chromebook</li>
+      <li>Google Workspace (Docs, Sheets, Slides)</li>
+      <li>TypingClub, Scratch by MIT</li>
+      <li>Email (Gmail or similar)</li>
+    </ul>
+
+    <h3 style="color: #1f4fa4; margin-top: 30px;">📜 Certificate Criteria</h3>
+    <ul style="font-size: 16px; color: #444;">
+      <li>✔ Attend 90% of classes</li>
+      <li>✔ Submit final PowerPoint & Scratch project</li>
+      <li>✔ Pass final quiz</li>
+      <li>✔ Complete typing test</li>
+    </ul>
+
+    <h3 style="color: #1f4fa4; margin-top: 30px;">🎁 Bonus Add-ons</h3>
+    <ul style="font-size: 16px; color: #444;">
+      <li>Career counseling session</li>
+      <li>Interview prep tips</li>
+      <li>Intro to freelancing in tech</li>
+    </ul>
+  </div>
+</section>
+
+
+
+
+   <!-- Our Story Section -->
+<section class="container-fluid py-5 px-4" style="background-color: #f0f8ff;" id="about" data-aos="fade-up">
+    <div class="container rounded-4 p-5 shadow-sm">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold text-primary" data-aos="zoom-in">🌐 Our Story</h2>
+        <p class="text-muted" data-aos="fade-up" data-aos-delay="100">How a Dream Turned into a Digital Learning Revolution</p>
+      </div>
+  
+      <div class="row align-items-center">
+        <!-- Text Content -->
+        <div class="col-lg-7">
+          <p class="fs-5" data-aos="fade-up" data-aos-delay="200">
+            <strong>TechNexus Learning</strong> started with a bold belief: 
+            <span class="text-primary fw-semibold">Quality tech education should be affordable and accessible to all.</span>
+            In a world driven by innovation, digital skills aren’t optional—they’re essential.
+          </p>
+  
+          <p class="fs-5" data-aos="fade-up" data-aos-delay="300">
+            This vision took root in <strong>2022</strong>, when our founder struggled to find affordable, real-world tech training.
+            Inspired by shared challenges among students, <strong>TechNexus officially launched in April 2025</strong> as a dream-turned-reality.
+          </p>
+  
+          <p class="fs-5" data-aos="fade-up" data-aos-delay="400">
+            From a humble home setup to a thriving online academy, we now offer:
+            <span class="text-success fw-semibold">Python, Ethical Hacking, Robotics, Full Stack, Digital Marketing, and more.</span>
+            And we're just getting started.
+          </p>
+  
+          <p class="fs-5" data-aos="fade-up" data-aos-delay="500">
+            <strong>We also empower college students</strong> with part-time trainer roles—so they gain valuable experience 
+            while helping others grow. Because here at TechNexus, <span class="text-warning fw-semibold">we grow together.</span>
+          </p>
+  
+          <p class="fs-5" data-aos="fade-up" data-aos-delay="600">
+            Our dream is big:
+          </p>
+  
+          <ul class="fs-5" data-aos="fade-up" data-aos-delay="700">
+            <li>🏢 A vibrant <strong>physical campus</strong> full of creativity and collaboration</li>
+            <li>👩🏽‍🏫 A large, diverse team of <strong>professionals & student mentors</strong></li>
+            <li>🌍 A nationwide and global impact in <strong>next-gen tech education</strong></li>
+          </ul>
+  
+          <p class="fs-5 mt-4" data-aos="fade-up" data-aos-delay="800">
+            <strong class="text-primary">This is just the beginning.</strong> Join us in reshaping the future of learning.
+          </p>
+        </div>
+  
+        <!-- Image/Visual -->
+        <div class="col-lg-5 text-center mt-4 mt-lg-0" data-aos="zoom-in-left" data-aos-delay="500">
+          <img src="https://img.freepik.com/free-vector/online-certification-illustration_23-2148573637.jpg" 
+               alt="Our Story Illustration" class="img-fluid rounded-3 shadow" style="max-height: 400px;">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+    <!-- Why Choose TechNexus -->
+<link href="https://unpkg.com/lucide@latest" rel="stylesheet" />
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+<div class="container my-5 p-5 rounded-4 shadow" style="background: linear-gradient(to right, #e6f0fa, #f7faff);">
+  <h2 class="text-center mb-5 fw-bold text-primary" style="font-size: 2rem;" data-aos="zoom-in">🌟 Why Choose TechNexus?</h2>
+
+  <div class="row g-4">
+    <!-- Item 1 -->
+    <div class="col-md-6 d-flex align-items-start" data-aos="fade-up" data-aos-delay="100">
+      <i data-lucide="wallet" class="me-3 text-primary" style="width: 32px; height: 32px;"></i>
+      <div>
+        <h5 class="fw-bold mb-1">Affordable & Accessible</h5>
+        <p class="mb-0 text-muted">Quality tech education without the burden of high costs.</p>
+      </div>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="col-md-6 d-flex align-items-start" data-aos="fade-up" data-aos-delay="200">
+      <i data-lucide="laptop-2" class="me-3 text-success" style="width: 32px; height: 32px;"></i>
+      <div>
+        <h5 class="fw-bold mb-1">Real-World Training</h5>
+        <p class="mb-0 text-muted">Hands-on skills that make you job-ready.</p>
+      </div>
+    </div>
+
+    <!-- Item 3 -->
+    <div class="col-md-6 d-flex align-items-start" data-aos="fade-up" data-aos-delay="300">
+      <i data-lucide="briefcase" class="me-3 text-danger" style="width: 32px; height: 32px;"></i>
+      <div>
+        <h5 class="fw-bold mb-1">Trainer Program</h5>
+        <p class="mb-0 text-muted">Earn while gaining valuable teaching experience.</p>
+      </div>
+    </div>
+
+    <!-- Item 4 -->
+    <div class="col-md-6 d-flex align-items-start" data-aos="fade-up" data-aos-delay="400">
+      <i data-lucide="clock" class="me-3 text-warning" style="width: 32px; height: 32px;"></i>
+      <div>
+        <h5 class="fw-bold mb-1">Flexible Batches</h5>
+        <p class="mb-0 text-muted">Morning & evening sessions that fit your schedule.</p>
+      </div>
+    </div>
+
+    <!-- Item 5 -->
+    <div class="col-md-6 d-flex align-items-start" data-aos="fade-up" data-aos-delay="500">
+      <i data-lucide="users" class="me-3 text-info" style="width: 32px; height: 32px;"></i>
+      <div>
+        <h5 class="fw-bold mb-1">Mentor Support</h5>
+        <p class="mb-0 text-muted">Guidance from professionals & student instructors.</p>
+      </div>
+    </div>
+
+    <!-- Item 6 -->
+    <div class="col-md-6 d-flex align-items-start" data-aos="fade-up" data-aos-delay="600">
+      <i data-lucide="cpu" class="me-3 text-secondary" style="width: 32px; height: 32px;"></i>
+      <div>
+        <h5 class="fw-bold mb-1">Robotics for Schools</h5>
+        <p class="mb-0 text-muted">Inspiring innovation in young learners.</p>
+      </div>
+    </div>
+
+    <!-- Item 7 -->
+    <div class="col-md-6 d-flex align-items-start" data-aos="fade-up" data-aos-delay="700">
+      <i data-lucide="mic" class="me-3 text-purple" style="width: 32px; height: 32px;"></i>
+      <div>
+        <h5 class="fw-bold mb-1">Free Soft Skills</h5>
+        <p class="mb-0 text-muted">Communication & interview training included.</p>
+      </div>
+    </div>
+
+    <!-- Item 8: Internship Program -->
+    <div class="col-md-6 d-flex align-items-start" data-aos="fade-up" data-aos-delay="800">
+      <i data-lucide="badge-percent" class="me-3 text-dark" style="width: 32px; height: 32px;"></i>
+      <div>
+        <h5 class="fw-bold mb-1">Internship Program</h5>
+        <p class="mb-0 text-muted">We provide internships to boost your real-world experience.</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="text-center mt-5 text-dark fs-5" data-aos="fade-up" data-aos-delay="900"><em>Your journey to tech excellence starts here.</em></p>
+</div>
+
+<script>
+  lucide.createIcons();
+</script>
+
+    <!-- Part-Time Job Section -->
+<section class="container my-5 p-5" style="background: rgba(255,255,255,0.15); backdrop-filter: blur(10px); border-radius: 15px; color: #333;">
+    <h2 class="text-center fw-bold mb-4" data-aos="zoom-in">🧑‍🏫 Why Join TechNexus as a Part-Time Trainer?</h2>
+  
+    <div class="row text-center">
+      <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <i class="fas fa-chalkboard-teacher fa-3x mb-3 text-primary"></i>
+        <h5 class="fw-bold">Teach What You Love</h5>
+        <p>Share your skills in Programming, Digital Marketing, or Robotics — and inspire the next generation.</p>
+      </div>
+  
+      <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+        <i class="fas fa-briefcase fa-3x mb-3 text-success"></i>
+        <h5 class="fw-bold">Real Work Experience</h5>
+        <p>Build your resume with hands-on teaching experience while you're still studying or working.</p>
+      </div>
+  
+      <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+        <i class="fas fa-clock fa-3x mb-3 text-info"></i>
+        <h5 class="fw-bold">Flexible Shifts</h5>
+        <p>Choose between morning (9AM–1PM), evening (6PM–9PM), or rotational shifts that suit your schedule.</p>
+      </div>
+    </div>
+  
+    <hr class="my-5" style="opacity: 0.2;" data-aos="fade-in" data-aos-delay="400">
+  
+    <div class="text-center" data-aos="fade-up" data-aos-delay="500">
+      <h4 class="fw-bold text-success">🎓 Completed a Course with Us?</h4>
+      <p class="lead">You’re eligible to join our <strong>Training Team</strong> as a part-time instructor!</p>
+      <p>We believe in our students — that’s why we offer <strong>part-time job opportunities</strong> to those who complete a course with us and show passion in teaching others.</p>
+      <p><em>Grow with us. Teach with us. Build your future at TechNexus.</em></p>
+  
+      <a href="#contact" class="btn btn-primary mt-3 px-4 py-2">Apply Now</a>
+      <p class="mt-2"><small>Open to college students and working professionals | Part-time | 3–4 hours/day</small></p>
+    </div>
+  </section>
+  
+
+   
+  
+  
+            </div>
+            </div>
+
+            <!-- Contact Section -->
+<section id="contact" class="container my-5 p-5" style="background: rgba(255,255,255,0.15); backdrop-filter: blur(12px); border-radius: 15px; color: #333;">
+  <h2 class="text-center fw-bold mb-4" data-aos="zoom-in">📬 Contact TechNexus Learning</h2>
+  <p class="text-center mb-4" data-aos="fade-up">
+    We are a <strong>fully online learning platform</strong> offering affordable, skill-based technical training.
+    Whether you're looking to <strong>enroll in a course</strong> or <strong>join our team as a part-time trainer</strong>,
+    we’d love to hear from you!
+  </p>
+  <p class="text-center fw-bold text-success mb-5" data-aos="fade-up" data-aos-delay="100">
+    🎉 We also offer <strong>free demo classes</strong> — explore before you enroll!
+  </p>
+
+  <div class="d-flex flex-column flex-md-row justify-content-between gap-4">
+      <!-- Left Column: Contact Info -->
+      <div class="flex-fill" data-aos="fade-right">
+          <h5 class="fw-bold mb-3">📞 Contact Information</h5>
+          <p><i class="fas fa-phone text-primary me-2"></i> <strong>+91 9385839745/9787442323</strong></p>
+          <p><i class="fas fa-envelope text-danger me-2"></i> <strong>technexuslearning@gmail.com</strong></p>
+          <p><i class="fas fa-map-marker-alt text-success me-2"></i> Tamil Nadu, India</p>
+          <p><i class="fas fa-globe text-info me-2"></i> 100% Online Platform</p>
+          <p><i class="fab fa-instagram text-warning me-2"></i>
+            <a href="https://www.instagram.com/technexus_learning" target="_blank" style="text-decoration: none; color: #e4405f;">
+              @technexus_learning
+            </a>
+          </p>
+      </div>
+
+      <!-- Right Column: Contact Form -->
+      <div class="flex-fill" data-aos="fade-left">
+          <h5 class="fw-bold mb-3">📨 Send a Message</h5>
+          <form method="POST" onsubmit="handleSubmit(event)">
+              <div class="mb-3">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="mb-3">
+                  <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+              </div>
+              <div class="mb-3">
+                  <textarea name="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary px-4">Submit</button>
+          </form>
+      </div>
+  </div>
+</section>
+
+<!-- Contact form JS -->
+<script>
+function handleSubmit(event) {
+  event.preventDefault();
+  alert("✅ Thank you! Your message has been sent.");
+}
+</script>
+
+      <script>
+        function handleSubmit(event) {
+          event.preventDefault(); // Stop the page from reloading
+          alert("Thank you! Your message has been sent.");
+        }
+      </script>
+      
+  </section>
+  
+    <footer>
+<!-- Footer Section -->
+<footer class="text-white pt-5 pb-4" style="background-color: #0d1b2a;">
+    <div class="container text-md-left">
+      <div class="row text-md-left">
+  
+        <!-- Company Info -->
+        <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">TechNexus Learning</h5>
+          <p>
+            We are an <strong>online learning platform</strong> offering affordable tech courses with <strong>free demo classes</strong>, 
+            flexible batches, and even <strong>part-time trainer roles</strong> for students who complete our programs.
+          </p>
+        </div>
+  
+        <!-- Quick Links -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Quick Links</h5>
+          <p><a href="#about" class="text-white text-decoration-none">About Us</a></p>
+          <p><a href="#courses" class="text-white text-decoration-none">Courses</a></p>
+          <p><a href="#contact" class="text-white text-decoration-none">Contact</a></p>
+          <p><a href="#parttime" class="text-white text-decoration-none">Part-Time Job</a></p>
+        </div>
+  
+        <!-- Contact -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
+          <p><i class="bi bi-envelope-fill me-2"></i> technexuslearning@gmail.com</p>
+          <p><i class="bi bi-telephone-fill me-2"></i> +91 9385839745/9787442323</p>
+          <p><i class="bi bi-instagram me-2"></i> <a href="https://instagram.com/technexus_learning" class="text-white text-decoration-none">@technexus_learning</a></p>
+        </div>
+      </div>
+  
+      <!-- Copyright -->
+      <div class="row mt-4">
+        <div class="col-md-12 text-center">
+          <p class="mb-0">&copy; 2025 TechNexus Learning. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./aos.js"></script>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var openingModal = new bootstrap.Modal(document.getElementById('openingOfferModal'));
+    openingModal.show();
+  });
+</script>
+
+
+
+
+</body>
+
+</html>
+
+
